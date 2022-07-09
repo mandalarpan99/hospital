@@ -1,0 +1,78 @@
+/* Admin Dashboard Responsive for Android Devices*/
+
+@media screen and (max-width: 768px) {
+  /* Header Responsive */
+  .logo {
+    align-self: center;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1.4px;
+  }
+  .log_out {
+    color: white;
+    text-decoration: none;
+  }
+  .log_out:hover {
+    color: rgb(0, 255, 255);
+    transition: ease-in-out 0.5s;
+  }
+
+  /* Quick Links Responsive */
+
+  .quick_links {
+    flex-wrap: wrap;
+  }
+  .quick_links .links {
+    font-size: 1em;
+    margin-left: 5px;
+  }
+
+  /* main container responsive */
+
+  .main_container {
+    /* position: absolute; */
+    left: 150px;
+    width: 250px;
+    gap: 1.5em;
+  }
+
+  .number {
+    font-size: 1.2em;
+  }
+  .title {
+    font-size: 0.7em;
+  }
+  .detail {
+    font-size: 0.7em;
+  }
+
+  /* Click Here Responsive */
+
+  .click_here {
+    font-size: 0.5em;
+  }
+
+.admin {
+  width: 150px;
+}
+
+.container:hover,
+#box_active {
+  background: rgb(9, 163, 235);
+}
+
+.main_container_box {
+  gap: 1em;
+  justify-content: center;
+}
+/* container Responsive */
+.container {
+  width: 200px;
+}
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1000px)
+{
+  .main_container{
+    left: 200px;
+  }
+}
